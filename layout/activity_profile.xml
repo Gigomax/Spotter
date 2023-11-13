@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+    <ListView
+        android:id="@+id/listHistory"
+        android:layout_width="395dp"
+        android:layout_height="321dp"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:id="@+id/squatHistoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="Squat chart history" />
+
+    <Button
+        android:id="@+id/squatButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Squat Chart" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="\n\n" />
+
+    <TextView
+        android:id="@+id/deadliftHistoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="24dp"
+        android:text="Deadlift chart history" />
+
+    <Button
+        android:id="@+id/deadliftButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deadlift Chart" />
+
+    <TextView
+        android:id="@+id/accHistoryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Account history"
+        android:textSize="24dp" />
+
+
+</LinearLayout>

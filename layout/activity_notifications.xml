@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/soundButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Notification Sound" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/popUpButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Popup Notification Off \n(Show previews at the top of the screen)" />
+
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/vibrateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vibrate Off" />
+
+
+</LinearLayout>

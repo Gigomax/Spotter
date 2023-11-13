@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Info Chart"
+        android:id="@+id/menu_info_chart_activity"
+        app:showAsAction="never"
+        />
+    <item
+        android:title="Change Orientation"
+        android:id="@+id/menu_change"
+        app:showAsAction="never"
+        />
+</menu>
